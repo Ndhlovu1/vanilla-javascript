@@ -33,3 +33,5 @@ console.log("My Cat's Name is : "+petCat)
 var catSound = "purrr"
 
 //8. Declare another variable and name it dogSound. Assign the string of "woof" to it.
+var dogSound = "woof"
+
