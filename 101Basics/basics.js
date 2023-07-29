@@ -1,9 +1,5 @@
 /* TASKS
  
-    
-
-    4. Console.log the petCat variable.
-
     5. Console.log the text "My pet dog's name is: " and the petDog variable.
 
     6. Console.log the text "My pet cat's name is: " and the petCat variable.
@@ -30,3 +26,6 @@ var petCat = "Pepper"
 
 //3. Console.log the petDog variable.
 console.log("Dog's Name : "+petDog)
+
+//4. Console.log the petCat variable.
+console.log("Cat's Name :",petCat)
