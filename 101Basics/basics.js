@@ -1,9 +1,6 @@
 /* TASKS
  
-
-    2. Declare a new variable named petCat and give it the name Pepper.
-
-    3. Console.log the petDog variable.
+    
 
     4. Console.log the petCat variable.
 
@@ -26,4 +23,10 @@
 */
 
 //1. Declare a new variable named petDog and give it the name Rex.
+var petDog = "Rex"
 
+//2. Declare a new variable named petCat and give it the name Pepper.
+var petCat = "Pepper"
+
+//3. Console.log the petDog variable.
+console.log("Dog's Name : "+petDog)
