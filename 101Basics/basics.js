@@ -1,12 +1,5 @@
 /* TASKS
  
-    5. Console.log the text "My pet dog's name is: " and the petDog variable.
-
-    6. Console.log the text "My pet cat's name is: " and the petCat variable.
-
-    7. Declare another variable and name it catSound. Assign the string of "purr" to it.
-
-    8. Declare another variable and name it dogSound. Assign the string of "woof" to it.
 
     9. Console.log the variable petDog, then the string "says", then the variable dogSound.
 
@@ -29,3 +22,14 @@ console.log("Dog's Name : "+petDog)
 
 //4. Console.log the petCat variable.
 console.log("Cat's Name :",petCat)
+
+//5. Console.log the text "My pet dog's name is: " and the petDog variable.
+console.log("My Dog's Name is "+petDog)
+
+//6. Console.log the text "My pet cat's name is: " and the petCat variable.
+console.log("My Cat's Name is : "+petCat)
+
+//7. Declare another variable and name it catSound. Assign the string of "purr" to it.
+var catSound = "purrr"
+
+//8. Declare another variable and name it dogSound. Assign the string of "woof" to it.
