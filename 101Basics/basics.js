@@ -1,5 +1,5 @@
 /* TASKS
-    1. Declare a new variable named petDog and give it the name Rex.
+ 
 
     2. Declare a new variable named petCat and give it the name Pepper.
 
@@ -24,4 +24,6 @@
     12. Console.log the variable petCat, then the string "now says", then the variable catSound.
 
 */
+
+//1. Declare a new variable named petDog and give it the name Rex.
 
