@@ -27,8 +27,10 @@ var dogSound = "woof"
 console.log(petDog +" says "+dogSound)
 
 //10. Console.log the variable petCat, then the string "says", then the variable catSound.
-
+console.log(petCat+" says "+catSound)
 
 //11. Reassign the value stored in catSound to the string "meow".
+catSound = "meow"
 
 //12. Console.log the variable petCat, then the string "now says", then the variable catSound.
+console.log(petCat+" says "+catSound)
