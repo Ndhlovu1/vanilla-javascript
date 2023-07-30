@@ -1,11 +1,3 @@
-/* TASKS
-    10. Console.log the variable petCat, then the string "says", then the variable catSound.
-
-    11. Reassign the value stored in catSound to the string "meow".
-
-    12. Console.log the variable petCat, then the string "now says", then the variable catSound.
-
-*/
 
 //1. Declare a new variable named petDog and give it the name Rex.
 var petDog = "Rex"
@@ -34,3 +26,9 @@ var dogSound = "woof"
 //9. Console.log the variable petDog, then the string "says", then the variable dogSound.
 console.log(petDog +" says "+dogSound)
 
+//10. Console.log the variable petCat, then the string "says", then the variable catSound.
+
+
+//11. Reassign the value stored in catSound to the string "meow".
+
+//12. Console.log the variable petCat, then the string "now says", then the variable catSound.
