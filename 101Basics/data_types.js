@@ -1,11 +1,6 @@
-// BASIC OPERATORS
 /*
-ADDITION
-
-
-
-
-*/
+ BASIC ARITHMETIC OPERATORS
+ */
 
 
 
