@@ -63,6 +63,9 @@ var drone = {
     Speed : 100, Altitude : 350, Color : 'Purple'
 }
 
-
+for (var i = 0; i < arrOfKeys.length; i++){
+    console.log(arrOfKeys[i] +" : "+drone[arrOfKeys[i]])
+   
+}
 
 
