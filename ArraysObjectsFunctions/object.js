@@ -37,6 +37,7 @@ user = {
 
 console.log(user)
 console.log("\n--BRACKETS NOTATION--")
+
 //Using BRACKETS [] NOTATION
 var house = {}
 house['rooms'] = 4
@@ -48,6 +49,20 @@ console.log(house)
 console.log("\n--BRACKETS NOTATION 2--")
 house['size'] = 500
 console.log(house)
+
+console.log("\n--BRACKETS NOTATION 3--")
+house['color'] = "Blue"
+house.rooms = 6
+console.log(house)
+
+
+console.log("\n--DECLARING IN NOTATION--")
+var arrOfKeys = ['Speed', 'Altitude', 'Color']
+
+var drone = {
+    Speed : 100, Altitude : 350, Color : 'Purple'
+}
+
 
 
 
