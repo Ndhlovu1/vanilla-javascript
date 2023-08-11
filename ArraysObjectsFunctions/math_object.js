@@ -28,6 +28,36 @@
 */
 
 
+//Math Random
+Math.random();
+
+var decimal = Math.random();
+console.log(decimal)
+console.log(decimal * 10)
+
+//Math.ceil
+
+var rounded1 = Math.ceil(decimal);
+console.log(rounded1)
+
+var r = Math.ceil(0.5)
+console.log(r)
+
+r = Math.ceil(1.01)
+console.log(r)
+
+r = Math.ceil(2.99)
+console.log(r)
+
+r = Math.ceil(4.05)
+console.log(r)
+
+
+
+
+
+
+
 
 
 
