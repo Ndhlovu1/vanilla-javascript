@@ -36,4 +36,18 @@ user = {
 }
 
 console.log(user)
+console.log("\n--BRACKETS NOTATION--")
+//Using BRACKETS [] NOTATION
+var house = {}
+house['rooms'] = 4
+house['color'] = "Black"
+house['priceNAD'] = 325000
+
+console.log(house)
+
+console.log("\n--BRACKETS NOTATION 2--")
+house['size'] = 500
+console.log(house)
+
+
 
