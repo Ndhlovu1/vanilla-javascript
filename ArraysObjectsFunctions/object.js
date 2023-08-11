@@ -68,5 +68,16 @@ for (var i = 0; i < arrOfKeys.length; i++){
    
 }
 
-
 //console.log(drone["Speed"])
+
+
+
+console.log("\n--Arrays are Objects--")
+
+var fruits = []
+fruits.push("apple")
+fruits.push("mango")
+fruits.push('pineaple')
+
+
+
