@@ -18,10 +18,15 @@ console.log(fruits);
 function arrayBuilder(one, two, three, four){
     var arr = [];
 
-    arr.push(one)
-    arr.push(two)
-    arr.push(three)
+    arr.push(one);
+    arr.push(two);
+    arr.push(three);
+    arr.push(four)
 
-    console.log("PROVIDED ITEMS : ",arr)
+    return "\n--PROVIDED INFO\n",arr
 }
+
+var print = arrayBuilder("Associate Degree","iMBA", "Executive Job", "CIO/CTO/CEO")
+
+console.log("\n"+print)
 
