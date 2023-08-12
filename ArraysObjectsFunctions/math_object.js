@@ -53,12 +53,3 @@ r = Math.ceil(4.05)
 console.log(r)
 
 
-
-
-
-
-
-
-
-
-
