@@ -8,5 +8,9 @@ try{
     a + b
 }
 catch(error){
+    console.log("Error Identified")
+    console.log("------------------------")
+    console.log(error)
+    console.log("------------------------")
     console.log("Error has been saved to the error log")
 }
