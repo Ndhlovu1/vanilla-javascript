@@ -24,9 +24,10 @@ catch(error){
 function syntax_logical_runtime_errors() {
 
 
-console.log("########################################################")
+console.log("___________________________________________________________________")
 
-console.log("######### TYPES OF ERRORS ##############")
+
+console.log("######### TYPES OF ERRORS ####################\n")
     
     var ref_error = "REFERENCE ERROR : USED WHEN AN ATTEMPT TO USE A NON EXISTING VARIABLE IS MADE\ne.g.\n"
     console.log(ref_error)
@@ -44,13 +45,14 @@ console.log("######### TYPES OF ERRORS ##############")
 
     console.log("################## ERRORS #####################")
 
-    console.log("1. REFERENCE ERROR\t2. SYNTAX ERROR\n3. TYPE ERROR \t4.RANGE ERROR")
+    console.log("1. REFERENCE ERROR\t\t2. SYNTAX ERROR\n3. TYPE ERROR \t\t\t4.RANGE ERROR")
 
-    console.log("5. AGGGREGATE ERROR\t6. ERROR\n7. INTERNAL ERROR \t8.URI ERROR")
+    console.log("5. AGGGREGATE ERROR\t\t6. ERROR\n7. INTERNAL ERROR \t\t8.URI ERROR")
 
     
 
-    console.log("########################## THE END ##############################")
+    console.log("########################## THE END #############")
 
 }
 
+syntax_logical_runtime_errors()
