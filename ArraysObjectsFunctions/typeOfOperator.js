@@ -24,3 +24,10 @@ console.log(comparison, " : ", typeof(comparison))
 console.log(arr, " : ", typeof(arr))
 console.log(dict_object_literal, " : ", typeof(dict_object_literal))
 console.log(func_test, " : ", typeof(func_test))
+
+
+var result = "Hello".indexOf('l')
+console.log(result)
+
+
+
