@@ -5,10 +5,7 @@
 */
 
 function addTwoNums(a, b){
-    /Add the function into a try-catch block
-try{
-    
-}
+ 
 
 
     var sum = a + b
@@ -16,5 +13,3 @@ try{
 }
 
 addTwoNums(5,5)
-
-
