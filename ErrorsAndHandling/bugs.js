@@ -36,10 +36,21 @@ console.log("######### TYPES OF ERRORS ##############")
     console.log(syn_error)
     //var a "This is an error"
     console.log("TypeError : WHen running the expected data type is different to the provided data type")
+    console.log("RangeError : Occurs when a value is given to a function but that value is outside the acceptable range")
+    //Base 2 System converting to binary
+    console.log((10).toString(2))
+    //Base 8 
+    console.log((10).toString(8))
 
+    console.log("################## ERRORS #####################")
 
+    console.log("1. REFERENCE ERROR\t2. SYNTAX ERROR\n3. TYPE ERROR \t4.RANGE ERROR")
 
+    console.log("5. AGGGREGATE ERROR\t6. ERROR\n7. INTERNAL ERROR \t8.URI ERROR")
 
+    
+
+    console.log("########################## THE END ##############################")
 
 }
 
