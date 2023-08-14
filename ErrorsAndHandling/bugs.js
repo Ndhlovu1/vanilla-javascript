@@ -43,7 +43,7 @@ console.log("######### TYPES OF ERRORS ####################\n")
     //Base 8 
     console.log((10).toString(8))
 
-    console.log("################## ERRORS #####################")
+    console.log("########################## ERRORS ##############")
 
     console.log("1. REFERENCE ERROR\t\t2. SYNTAX ERROR\n3. TYPE ERROR \t\t\t4.RANGE ERROR")
 
