@@ -19,8 +19,6 @@ car.price_details = function() {
     var discount_values = discount*cost
     var final_price = cost - discount_values
     
-    console.log("--PRICING DETAILS--")
-    console.log("\tCAR NAME : ",car.name)
     console.log("\tCAR COST : NAD "+cost)
     console.log("\tCAR DISCOUNT : "+discount)
     console.log("\tFINAL CAR COST : NAD "+final_price)
@@ -70,8 +68,29 @@ car.dealer_locations = function(){
 }
 
 
-console.log("--CAR INFORMATION--\n",car,"\n");
-  
-car.price_details();
-car.dealer_locations()
+//console.log("--CAR OBJECT PROPERTIES--\n",car,"\n");
+
+function porsche() {
+    console.log("###################################")
+    console.log("CAR NAME : ",car.name.toUpperCase())
+    console.log("###################################")
+    console.log("INFO:\nCAR PRICE DETAILS\n")
+    
+    car.price_details();
+    console.log()  
+   
+    console.log("INFO:\nCAR DEALERSHIP DETAILS")
+    car.dealer_locations()
+    console.log("###################################")
+
+
+}
+
+porsche()
+
+
+
+
+
+
 
