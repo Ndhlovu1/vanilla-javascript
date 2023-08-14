@@ -14,3 +14,6 @@ catch(error){
     console.log("------------------------")
     console.log("Error has been saved to the error log")
 }
+
+console.log("#######################")
+console.log("Program Still Running")
