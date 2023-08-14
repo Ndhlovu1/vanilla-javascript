@@ -6,9 +6,9 @@
 var car = {};
 
 //Normal K-P Values
+car.name = "Porshe Panamera"
 car.color = "Bright Red";
 car.mileage = "20 000km";
-
 
 //Object Method
 
@@ -18,19 +18,47 @@ car.price_details = function() {
     var discount = 0.05
     var discount_values = discount*cost
     var final_price = cost - discount_values
-    car.name = "Porshe Panamera"
-
-    console.log("CAR NAME : ",car.name)
-    console.log("CAR COST : NAD "+cost)
-    console.log("CAR DISCOUNT : "+discount)
-    console.log("FINAL CAR COST : NAD "+final_price)
+    
+    console.log("--PRICING DETAILS--")
+    console.log("\tCAR NAME : ",car.name)
+    console.log("\tCAR COST : NAD "+cost)
+    console.log("\tCAR DISCOUNT : "+discount)
+    console.log("\tFINAL CAR COST : NAD "+final_price)
     
 
 }
 
+car.dealer_locations = function(){
+    var dealer1 = {
+        name : "Spes Bona",
+        location : "Windhoek, Namibia",
+        contact : 264812345678
+    }
 
-console.log("--CAR OBJECT LITERAL--\n",car,"\n");
+    var dealer2 = {
+        name : "Walvis Porsche",
+        location : "WalvisBay, Namibia",
+        contact : 264819876543
+    }
+
+    
+
+    console.log("\n--DEALER ONE DETAILS--")
+    console.log("\tNAME : "+dealer1.name)
+    console.log("\tLOCATION : "+dealer1.location)
+    console.log("\tCONTACT "+dealer1.contact+"\n")
+
+    console.log("\n--DEALER TWO DETAILS--")
+    console.log("\tNAME : "+dealer2.name)
+    console.log("\tLOCATION : "+dealer2.location)
+    console.log("\tCONTACT "+dealer2.contact)
+
+
+}
+
+
+console.log("--CAR INFORMATION--\n",car,"\n");
 
 car.price_details();
-
+car.dealer_locations()
 
