@@ -41,7 +41,14 @@ car.dealer_locations = function(){
         contact : 264819876543
     }
 
-    
+    var dealer3 = {
+        name : "Porsche North",
+        location : "Luderitz, Namibia",
+        contact : 264813698527
+    }
+
+
+
 
     console.log("\n--DEALER ONE DETAILS--")
     console.log("\tNAME : "+dealer1.name)
