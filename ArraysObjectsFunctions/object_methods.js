@@ -61,11 +61,17 @@ car.dealer_locations = function(){
     console.log("\tCONTACT "+dealer2.contact)
 
 
+    console.log("\n--DEALER THREE DETAILS--")
+    console.log("\tNAME : "+dealer2.name)
+    console.log("\tLOCATION : "+dealer2.location)
+    console.log("\tCONTACT "+dealer2.contact)
+
+
 }
 
 
 console.log("--CAR INFORMATION--\n",car,"\n");
-
+  
 car.price_details();
 car.dealer_locations()
 
