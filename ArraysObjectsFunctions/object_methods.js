@@ -62,9 +62,9 @@ car.dealer_locations = function(){
 
 
     console.log("\n--DEALER THREE DETAILS--")
-    console.log("\tNAME : "+dealer2.name)
-    console.log("\tLOCATION : "+dealer2.location)
-    console.log("\tCONTACT "+dealer2.contact)
+    console.log("\tNAME : "+dealer3.name)
+    console.log("\tLOCATION : "+dealer3.location)
+    console.log("\tCONTACT "+dealer3.contact)
 
 
 }
