@@ -41,5 +41,10 @@ function letterFinder(word, match){
     
 }
 
+//Passing Test
 letterFinder("Ndhlovu",'u')
-
+console.log()
+//Failing Test
+letterFinder((1,3))
+var res;
+console.log(res)
