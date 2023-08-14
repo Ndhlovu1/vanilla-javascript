@@ -17,3 +17,10 @@ catch(error){
 
 console.log("#######################")
 console.log("Program Still Running")
+
+/*
+    TYPES OF ERRORS
+
+*/
+
+
