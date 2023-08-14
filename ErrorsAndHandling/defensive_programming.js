@@ -16,9 +16,14 @@
 */
 
 function letterFinder(word, match){
+
+    var condition1 = typeof(word) == 'string' && word.length >= 2
+    var condition2 = typeof(match) == 'string' && match.length == 1
+    
+
     for(i = 0; i<word.length; i++){
         if(word[i] == match){
-            console.log("Found the Match for [",match,"] at '",i,"'")
+            console.log("Found the Match for [",match,"] Position ",i)
         }
 
         else{
@@ -26,7 +31,7 @@ function letterFinder(word, match){
         }
 
     }
-
-
 }
+
+letterFinder("Ndhlovu",'u')
 
