@@ -29,17 +29,17 @@ console.log("___________________________________________________________________
 
 console.log("######### TYPES OF ERRORS ####################\n")
     
-    var ref_error = "REFERENCE ERROR : USED WHEN AN ATTEMPT TO USE A NON EXISTING VARIABLE IS MADE\ne.g.\n"
+    var ref_error = "\nREFERENCE ERROR : USED WHEN AN ATTEMPT TO USE A NON EXISTING VARIABLE IS MADE\ne.g.\n"
     console.log(ref_error)
     //console.log(username)
     console.log()
-    var syn_error = "SYNTAX ERROR : OCCURS WHEN INVALID JAVASCRIPT IS USED\ne.g\n"
+    var syn_error = "\nSYNTAX ERROR : OCCURS WHEN INVALID JAVASCRIPT IS USED\ne.g\n"
     console.log(syn_error)
     //var a "This is an error"
-    console.log("TypeError : WHen running the expected data type is different to the provided data type")
-    console.log("RangeError : Occurs when a value is given to a function but that value is outside the acceptable range")
+    console.log("\nTypeError : WHen running the expected data type is different to the provided data type")
+    console.log("\nRangeError : Occurs when a value is given to a function but that value is outside the acceptable range\n")
     //Base 2 System converting to binary
-    console.log((10).toString(2))
+    console.log((44).toString(2))
     //Base 8 
     console.log((10).toString(8))
 
