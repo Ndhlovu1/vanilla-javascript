@@ -13,5 +13,20 @@
     2. THE LENGTH OF THE MATCH WORD MUST BE 1
     3. THE TYPE OF OF BOTH THE WORD AND THE MATH MUST BE STRING
 
-
 */
+
+function letterFinder(word, match){
+    for(i = 0; i<word.length; i++){
+        if(word[i] == match){
+            console.log("Found the Match for [",match,"] at '",i,"'")
+        }
+
+        else{
+            console.log("-- No Match Found at : ",i)
+        }
+
+    }
+
+
+}
+
