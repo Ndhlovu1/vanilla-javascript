@@ -47,4 +47,17 @@ console.log()
 //Failing Test
 letterFinder((1,3))
 var res;
+console.log()
 console.log(res)
+console.log()
+var str = "Hello"
+str.match("jello")
+
+console.log()
+try {
+    Number(5).toPrecision(300)
+    
+} catch (error) {
+    console.log("Error")
+    
+}
