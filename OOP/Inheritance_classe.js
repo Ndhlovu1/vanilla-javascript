@@ -58,3 +58,30 @@ train2.getSelf()
 train2.getPrototype()
 
 
+class HighSpeedTrain extends Train{
+
+    constructor(name,passengers, highSpeedOn, color, lightsOn){
+        super(color, lightsOn)
+        this.passengers = passengers
+        this.highSpeedOn = highSpeedOn
+        this.name = name
+    }
+
+    details(){
+        this.name
+    }
+
+    toggleHighSpeed(){
+        this.highSpeedOn = !this.highSpeedOn
+        console.log("High Speed Status :", this.highSpeedOn)
+    }
+
+    //Changing a method from the super class
+    toggleLights(){
+        super.toggleLights(false)
+        super.lightsStatus(false)
+        console.log("Lights are 100% functional.")
+    }
+
+}
+
