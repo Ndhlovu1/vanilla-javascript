@@ -30,3 +30,19 @@ class Penguin extends Bird{
         console.log("Penguins Swim")
     }
 }
+
+class Parrot extends Bird{
+    useWings(){
+        super.useWings() // Inherit the direct usage of the useWings()
+    }
+}
+
+var baldEagle = new Eagle()
+var kingPenguin = new Penguin()
+var pirat = new Parrot()
+
+pirat.useWings()
+baldEagle.useWings()
+kingPenguin.useWings()
+
+
