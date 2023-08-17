@@ -7,3 +7,10 @@
         3.  There is a class inheriting from Bird and this class is called Penguin
 */
 
+
+class Bird{
+    useWings() {
+        console.log("Bird is Flying")
+    }
+
+}
