@@ -22,3 +22,11 @@ class Eagle extends Bird{
         console.log("Eagle's Soar")
     }
 }
+
+
+class Penguin extends Bird{
+    useWings(){
+        //super.useWings()
+        console.log("Penguins Swim")
+    }
+}
