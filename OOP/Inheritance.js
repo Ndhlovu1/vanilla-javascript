@@ -13,3 +13,11 @@
             i.e. class Eagle extends Bird
 
 */
+
+class Animal{}
+
+class Bird extends Animal{}
+
+class Eagle extends Bird{}
+
+
