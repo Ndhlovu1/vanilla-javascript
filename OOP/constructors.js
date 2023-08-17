@@ -28,3 +28,9 @@ function Icecream(flavor){
     }
 }
 
+let kiwiIceCream = new Icecream("Kiwi")
+let chocolatIceCream = new Icecream("Chocolate")
+
+console.log(kiwiIceCream)
+console.log(chocolatIceCream)
+
