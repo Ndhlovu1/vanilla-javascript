@@ -85,3 +85,15 @@ class HighSpeedTrain extends Train{
 
 }
 
+//Additional Examples
+var train3 = new HighSpeedTrain('blue', false)
+var highSpeedTrain1 = new HighSpeedTrain("Phx",200, false ,'Orange', false)
+
+console.log("--------High Speed Train---------")
+train3.details()
+train3.toggleLights()
+train3.lightsStatus()
+train3.getPrototype()
+train3.getSelf()
+
+
