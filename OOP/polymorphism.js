@@ -8,6 +8,8 @@
  * 
  */
 
+
+
 //Coded examples
 
 const bicycle = {
@@ -16,22 +18,4 @@ const bicycle = {
     }
 
 }
-
-const door = {
-    bell : function () {
-        return "Ring, ring! Please come to the door."
-    }
-
-}
-
-// POLYMORPIC IMPLEMENTATION - PRODUCING DIFFERENT RESULTS BASED ON THE CONTEXT IT IS USED
-
-function ringTheBell(thing){
-    //Expect the parameter to be an object
-    console.log(thing.bell())
-}
-
-//Run the single method and pass on the object
-ringTheBell(bicycle)
-ringTheBell(door)
 
