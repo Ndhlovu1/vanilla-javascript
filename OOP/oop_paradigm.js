@@ -4,12 +4,6 @@
         2. ALLOWS MODULAR CODE
         3. MAKES CODE REUSABLE
 
-    PRINCIPLES OF OOP
-        1. INHERITANCE
-        2. ENCAPSULATION
-        3. ABSTRACTION
-        4. POLYMORPHISM
-
 */
 
 //e.g. Class Creation
