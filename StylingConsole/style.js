@@ -35,4 +35,37 @@ function consoleStyler(color, background, fontSize, txt) {
 
 consoleStyler(`yellow`,`red`,`50px`,"You Rock, Mr Ndhlovu")
 
+// Function with conditional Statements
+
+var name = "Ndhlovu"
+//console.log(typeof(name))
+
+
+function celebrateStyler(reason){
+
+    var fontStyle = "color: tomato; font-size: 50px";
+
+    if (typeof(reason)) {
+            if (reason == "birthday") {
+                console.log("%cHappy Birthday", fontStyle)
+                
+            } else if(reason == "champions"){
+                console.log(`%cCongrats on the title!`, fontStyle)                
+            }
+            else{
+                console.log(reason, fontStyle)
+            }        
+    }
+
+    else{
+        console.log("Sorry please enter a string only")
+    }
+}
+
+celebrateStyler("Hello");
+
+
+
+
+
 
