@@ -19,4 +19,20 @@
 //Single Text Styles
 console.log("This is %cmy stylish message.",'color:yellow; background-color:blue;')
 
+function consoleStyler(color, background, fontSize, txt) {
+    
+    var msg = "%c" + txt
+
+    var style = `color: ${color};`
+
+    style += `background: ${background};`
+
+    style += `font-size: ${fontSize};`
+
+    console.log(msg, style)
+
+}
+
+consoleStyler(`yellow`,`red`,`50px`,"You Rock, Mr Ndhlovu")
+
 
