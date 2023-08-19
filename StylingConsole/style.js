@@ -41,7 +41,14 @@ var name = "Ndhlovu"
 
 function celebrateStyler(reason){
 
-    var fontStyle = "color: tomato; font-size: 50px";
+    var fontStyle = `color: tomato;`;
+    fontStyle += `font-size: 50px;`
+
+    var birth = "birthday"
+    var champ = "champions"
+    var bmsg = "%c" + "Happy birthday"
+    var cmsg = "%c" + "Congrats on the title!"
+    var msg = "%c" + message
 
     if (typeof(reason)) {
             if (reason == "birthday") {
