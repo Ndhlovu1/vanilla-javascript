@@ -12,8 +12,6 @@
         NB: APPLYING CSS TO STYLE THE CONSOLE
             1. Use the %c directive
 
-
-
 */
 
 //Single Text Styles
@@ -62,9 +60,18 @@ function celebrateStyler(reason){
     }
 }
 
-celebrateStyler("Hello");
+celebrateStyler("birthday");
 
 
+console.log()
+function styleAndCelebrate(){
+   
+    consoleStyler(`#ef7c8e`,`fae8e0`,`30px`,"You made it!")
+
+    celebrateStyler("champions")
+}
+
+styleAndCelebrate()
 
 
 
