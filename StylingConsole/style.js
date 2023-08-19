@@ -48,7 +48,7 @@ function celebrateStyler(reason){
     var champ = "champions"
     var bmsg = "%c" + "Happy birthday"
     var cmsg = "%c" + "Congrats on the title!"
-    var msg = "%c" + message
+    var msg = "%c" + reason
 
     if (typeof(reason)) {
             if (reason == birth) {
