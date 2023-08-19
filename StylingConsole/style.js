@@ -55,7 +55,7 @@ function celebrateStyler(reason){
                 console.log(bmsg, fontStyle)
                 
             } else if(reason == champ){
-                console.log(`%cCongrats on the title!`, fontStyle)                
+                console.log(cmsg, fontStyle)                
             }
             else{
                 console.log(reason, fontStyle)
