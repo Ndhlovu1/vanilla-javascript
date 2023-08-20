@@ -8,3 +8,13 @@
  *             
  * 
  */
+
+// USING SPREAD AND REST
+/*
+
+
+
+*/
+
+
+
