@@ -1,42 +1,53 @@
 // Task 1
-var dairy = ['cheese', 'sour cream', 'milk', 'yorgut', 'ice cream']
 
-function logdairy(arr) {
+function logDairy() {
+    var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream','milkshake']
     
-    for (item in arr) {
-        console.log(arr[item])
+    for (item of Object.keys(dairy)) {
+        return dairy[item]
     }
 }
-logdairy(dairy)
+
+logDairy()
 
 // Task 2
-const animal = {
-    canJump : true
-}
 
-const bird = Object.create(animal)
-bird.canFly = true
-bird.hasFeathers = true
+function birdCan() {
 
-function birdCan(arr2) {
+    const animal = {
+        canJump : true
+    }
+
+    const bird = Object.create(animal)
+    bird.canFly = true
+    bird.hasFeathers = true
+
     
-    for (feature of Object.keys(arr2)) {
-        console.log(feature + ": "+arr2[feature])
+    for (feature of Object.keys(bird)) {
+        console.log(feature + ": "+bird[feature])
     }
 
 }
-console.log()
-birdCan(bird)
+
+birdCan()
 
 // Task 3
-function birdCan2(arr2) {
+function animalCan() {
+
+    const animal = {
+        canJump : true
+    }
+
+    const bird = Object.create(animal)
+    bird.canFly = true
+    bird.hasFeathers = true
+
     
-    for (feature in arr2) {
-        console.log(feature + ": "+arr2[feature])
+    for (feature in bird) {
+        console.log(feature + ": "+bird[feature])
     }
 
 }
-console.log()
-birdCan2(bird)
+animalCan()
 
 
