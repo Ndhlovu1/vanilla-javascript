@@ -6,7 +6,7 @@
 
             NB: 
                 1. Object.keys() receives an object(the one we wanna loop over) as a parameter
-                2. 
+                2. Object.values() receives an object and returns the Values of the Object
 
 */
 
@@ -15,4 +15,12 @@ const car = {
     speed: 200,
     color : "red"
 }
+//Passing the objext returns an array of the keys and not the values
 console.log(Object.keys(car))
+
+const car2 = {
+    speed : 400,
+    color : "yellow"
+}
+
+console.log(Object.values(car2))
