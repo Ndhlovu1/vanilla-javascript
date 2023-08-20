@@ -11,6 +11,8 @@ const car = {
     speed : "slow"
 }
 
-console.log(typeof(car))
+const sportsCar = Object.create(car)
+sportsCar.speed = "fast"
+console.log("Sports Car Object :", sportsCar)
 
 
