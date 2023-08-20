@@ -11,10 +11,14 @@
 
 // USING SPREAD AND REST
 /*
-
-
-
+    TASKS
+        1. Add new members to array without using push() method
+        2. Convert string to an array
+        3. Copy either an object or an array into a seperate object
+ 
 */
+
+
 
 
 
