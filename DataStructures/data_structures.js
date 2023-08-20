@@ -44,14 +44,24 @@ nums.filter(function(num){
 //Return Value will be an array of the answers
 
 //USING OBJECTS WITH THE ForEach
-const result = []
-const drone = {
-    speed:100,
-    color:'yellow'
-}
-//RUN IN THE BROWSER
-drone.forEach(function(key){
-    console.log(key, ":",drone[key])
-})
+// const result = []
+// const drone = {
+//     speed:100,
+//     color:'yellow'
+// }
+// //RUN IN THE BROWSER
+// drone.forEach(function(key){
+//     console.log(key, ":",drone[key])
+// })
 
 
+
+//Maps - No Prototype and No Inheritance
+new Map()
+
+let bestBoxers = new Map()
+bestBoxers.set(1,"The Champion")
+bestBoxers.set(2, "The Runner-up")
+bestBoxers.set(3, "The Third place")
+
+console.log(bestBoxers)
