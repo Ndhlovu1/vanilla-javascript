@@ -12,9 +12,10 @@ let place = "World"
 console.log(`${greet} ${place}!`)
 
 //Template literals can span multiple lines which cant be done by the prior two string creation methods
-var test = `Hello
-Mr
-Ndhlovu
+let test = `
+    Hello
+    Mr
+    Ndhlovu
 `
 
 console.log(test)
