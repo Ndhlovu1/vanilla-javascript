@@ -51,8 +51,23 @@ car1.speed = 201
 
 console.log(car1.speed, car2.speed)
 
-//
+
 const fruits1 = ['apples', 'pears']
 const fruits2 = [...fruits]
 fruits1.pop()
 console.log(fruits1, "not", fruits2)
+
+const meal = ["soup", "steak", "ice cream"]
+let [starter] = meal;
+console.log(starter);
+
+
+let obj = {
+    key: 1,
+    value: 4
+};
+
+let output = { ...obj };
+output.value -= obj.key;
+
+console.log(output.value);
