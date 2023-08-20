@@ -16,7 +16,7 @@ sportsCar.speed = "fast"
 console.log("Sports Car Object :", sportsCar)
 
 
-//Using a For in methodnot reliable as it shows whats on the Prototype
+//Using a For in method not reliable as it shows whats on the Prototype and whats on the object
 console.log("--For in Loop--")
 for(prop in sportsCar){
     console.log(prop)
