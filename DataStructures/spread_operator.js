@@ -51,4 +51,8 @@ car1.speed = 201
 
 console.log(car1.speed, car2.speed)
 
-
+//
+const fruits1 = ['apples', 'pears']
+const fruits2 = [...fruits]
+fruits1.pop()
+console.log(fruits1, "not", fruits2)
