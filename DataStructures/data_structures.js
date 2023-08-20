@@ -69,3 +69,10 @@ console.log(bestBoxers)
 //Getting a single item
 bestBoxers.get(1);
 
+//SETS - Unique Data Values
+new Set()
+
+const repFruit = ['apple','pear','apple','banana', 'apple','pear']
+
+const uniqueFruit = new Set(repFruit)
+console.log(uniqueFruit)
