@@ -34,6 +34,15 @@ nums.filter(function(num){
     return num > 30;
 })
 
+//MAPS - MAP EACH ARRAY ITEM OVER TO ANOTHER ARRAY'S ITEM BASED ON WHATEVER WORK IS PERFORMED INSIDE THE FUNCTION THAT IS PASSED-IN TO THE MAP AS A PARAMETER
+//e.g.
+//RUN IN THE BROWSER
+[0,10,20,30,40,50].map(
+    function(num){
+        return num / 10
+})
+//Return Value will be an array of the answers
+
 
 
 
