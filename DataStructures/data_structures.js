@@ -49,7 +49,7 @@ const drone = {
     speed:100,
     color:'yellow'
 }
-
+//RUN IN THE BROWSER
 drone.forEach(function(key){
     console.log(key, ":",drone[key])
 })
