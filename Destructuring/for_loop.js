@@ -46,3 +46,24 @@ var clothes = {
 for(key of Object.keys(clothes)){
     console.log(key, ":", clothes[key])
 }
+
+//Dynamically Accessing either the Key or Value
+function dynamicTest() {
+    var dynamicKey;
+
+    if(Math.random() > 0.5){
+        dynamicKey = "speed"
+    }
+    else{
+        dynamicKey = "color"
+    }
+
+    var drone = {
+        speed : 15,
+        color: "red"
+    }
+    console.log(drone[dynamicKey])
+    
+}
+
+dynamicTest()
