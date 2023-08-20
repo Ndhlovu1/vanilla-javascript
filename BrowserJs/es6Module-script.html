@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 Js MODULES</title>
+</head>
+<body>
+    <h3>ES6 MODULES</h3>
+    <script type="module">
+       import {informalGreeting} from './greeting.js';
+       informalGreeting("Ndhlovu1");
+    </script>
+
+    <script type="module">
+        import { informalGreeting, formalGreeting } from './greeting.js';
+        import greeting from './greeting.js';
+        formalGreeting("Sultan");
+        greeting();
+    </script>
+    
+</body>
+</html>
