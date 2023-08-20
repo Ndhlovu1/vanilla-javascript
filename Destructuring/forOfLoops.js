@@ -16,3 +16,8 @@ sportsCar.speed = "fast"
 console.log("Sports Car Object :", sportsCar)
 
 
+//Using a For in method
+console.log("--For in Loop")
+for(prop in sportsCar){
+    console.log(prop)
+}
