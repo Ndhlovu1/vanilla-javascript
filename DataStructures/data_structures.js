@@ -43,6 +43,6 @@ nums.filter(function(num){
 })
 //Return Value will be an array of the answers
 
-
+//USING OBJECTS WITH THE ForEach
 
 
