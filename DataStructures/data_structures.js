@@ -65,3 +65,7 @@ bestBoxers.set(2, "The Runner-up")
 bestBoxers.set(3, "The Third place")
 
 console.log(bestBoxers)
+
+//Getting a single item
+bestBoxers.get(1);
+
