@@ -44,5 +44,14 @@ nums.filter(function(num){
 //Return Value will be an array of the answers
 
 //USING OBJECTS WITH THE ForEach
+const result = []
+const drone = {
+    speed:100,
+    color:'yellow'
+}
+
+drone.forEach(function(key){
+    console.log(key, ":",drone[key])
+})
 
 
