@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Update</title>
+</head>
+<body>
+    Running Code In browser
+    <script type="module">
+        let answer = prompt("What is your name?");
+
+        if(typeof(answer)=== 'string'){
+            var h1 = document.createElement('h1')
+            h1.innerText = answer;
+            document.body.innerText = "NAME";
+            document.body.appendChild(h1);
+
+        }
+
+    </script>
+    
+</body>
+</html>
+
+
