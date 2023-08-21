@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form User Input</title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        var h1 = document.createElement('h1');
+        h1.innerText = "Type into the input to make this text change";
+
+        var input = document.createElement('input');
+        input.setAttribute('type', 'text');
+
+        document.body.innerText = '';
+        document.body.appendChild(h1);
+        document.body.appendChild(input);
+
+        input.addEventListener('change',function(){
+            //console.log(input.value)
+            h1.innerText = input.value
+        })
+
+
+    </script>
+
+    
+</body>
+</html>
+
+<!--
+    TO CONVERT A JSON TO JS
+        JSON.parse(jsonObjectName)
+    TO CONVERT A JS OBJECT TO JSON
+        JSON.stringify(js_Object_name)
+
+-->
