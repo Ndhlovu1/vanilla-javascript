@@ -14,6 +14,10 @@
 
 */
 
+const a = 1
+a = 12
+console.log(a)
+
 //Single Text Styles
 console.log("This is %cmy stylish message.",'color:yellow; background-color:blue;')
 
