@@ -9,7 +9,14 @@
  *      2. Re-write code to pass
  *      3. Optimize code without changing the results
  * 
+ *  WRITE CODE THAT TESTS OTHER CODE
+ *  
+ *  VERSIONS OF TESTING
+ *      1. MANAGEMENT'S PERSPECTIVE : Ensuring that a piece of software works with other parts of your system
+ *      2. SOFTWARE ENGINEER'S PERSPECTIVE : Writing code that doesnt break existing functionality, bug free and satisfies given reuirements
+ * 
  */
 
-//Write a test with
+console.log("----------TYPES OF TESTING SOFTWARE----------")
+var 
 
